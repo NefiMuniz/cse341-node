@@ -1,0 +1,23 @@
+{
+  "name": "cse341-node",
+  "version": "1.0.0",
+  "description": "WDD 341 Project",
+  "homepage": "https://github.com/NefiMuniz/cse341-node#readme",
+  "bugs": {
+    "url": "https://github.com/NefiMuniz/cse341-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NefiMuniz/cse341-node.git"
+  },
+  "license": "ISC",
+  "author": "Nefi Muniz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
