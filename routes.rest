@@ -1,0 +1,8 @@
+### Online
+### All
+GET https://cse341-node-fpek.onrender.com/users/
+
+### Single
+GET https://cse341-node-fpek.onrender.com/users/67cbdbfff368eefbf444e224
+
+
