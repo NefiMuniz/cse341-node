@@ -1,3 +1,45 @@
+// LOCALHOST
+### All
+GET http://localhost:10000/users/
+
+### Single
+GET http://localhost:10000/users/67cbdbfff368eefbf444e224
+
+### All
+GET http://localhost:10000/contacts/
+
+### Single
+GET http://localhost:10000/contacts/67d2534e805c75127317c309
+
+### Create
+POST http://localhost:10000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Storm",
+  "lastName": "Trooper",
+  "email": "missing@shots.com",
+  "favoriteColor": "White",
+  "birthday": "1990-04-01"
+}
+
+### Update
+PUT http://localhost:10000/contacts/67d2659376983758bbcca374
+Content-Type: application/json
+
+{
+  "firstName": "Darth",
+  "lastName": "Vader",
+  "email": "iamyour@father.com",
+  "favoriteColor": "Dark",
+  "birthday": "1900-02-30"
+}
+
+### Delete
+DELETE http://localhost:10000/contacts/67d266efb65f4abc9ceff311
+
+
+
 ### Online
 ### All
 GET https://cse341-node-fpek.onrender.com/users/
@@ -5,4 +47,35 @@ GET https://cse341-node-fpek.onrender.com/users/
 ### Single
 GET https://cse341-node-fpek.onrender.com/users/67cbdbfff368eefbf444e224
 
+### All
+GET https://cse341-node-fpek.onrender.com/contacts/
 
+### Single
+GET https://cse341-node-fpek.onrender.com/contacts/67d2534e805c75127317c309
+
+### Create
+POST https://cse341-node-fpek.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Storm",
+  "lastName": "Trooper",
+  "email": "missing@shots.com",
+  "favoriteColor": "White",
+  "birthday": "1990-04-01"
+}
+
+### Update
+PUT https://cse341-node-fpek.onrender.com/contacts/67d2659376983758bbcca374
+Content-Type: application/json
+
+{
+  "firstName": "Darth",
+  "lastName": "Vader",
+  "email": "iamyour@father.com",
+  "favoriteColor": "Dark",
+  "birthday": "1900-02-30"
+}
+
+### Delete
+DELETE https://cse341-node-fpek.onrender.com/contacts/67d266efb65f4abc9ceff311
